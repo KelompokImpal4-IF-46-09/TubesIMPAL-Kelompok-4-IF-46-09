@@ -1,0 +1,2184 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:500,400,700,600|Istok+Web:700");
+
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/6718e4bde1c7a2ddf5e2b203.6718e4bee1c7a2ddf5e2b206.o5BDP0e.hch.png");
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.component-wrapper a {
+  display: contents;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.component-wrapper * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe {
+  pointer-events: auto;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay-base {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-base.animate-appear {
+  align-items: center;
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+  pointer-events: none;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-nodelay {
+  animation-delay: 0s;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+}
+:root {
+}
+
+/* screen - desktop-1 */
+
+.desktop-1 {
+  background-color: #ffffff;
+  height: 984px;
+  opacity: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop-1 .head-C61RwL {
+  --z-index: 0;
+  background-color: transparent;
+  height: 104px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.desktop-1 .rectangle-6-s1PSRm {
+  --z-index: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 104px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.desktop-1 .menu-01-s1PSRm {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/menu-01-4.svg);
+  background-size: 100% 100%;
+  height: 32px;
+  left: 1394px;
+  opacity: 1;
+  position: absolute;
+  top: 39px;
+  width: 27px;
+}
+
+.desktop-1 .group-11-s1PSRm {
+  --z-index: 2;
+  background-color: transparent;
+  height: 27px;
+  left: 1262px;
+  opacity: 1;
+  position: absolute;
+  top: 39px;
+  width: 77px;
+}
+
+.desktop-1 .user-01-QGVhsd {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/user-01-5.svg);
+  background-size: 100% 100%;
+  height: 27px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 28px;
+}
+
+.desktop-1 .login-QGVhsd {
+  --z-index: 1;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 9px;
+  width: auto;
+}
+
+.desktop-1 .currently-trending-C61RwL {
+  --z-index: 1;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 728px;
+  width: auto;
+}
+
+.desktop-1 .trend-up-01-C61RwL {
+  --z-index: 2;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/trend-up-01-4.svg);
+  background-size: 100% 100%;
+  height: 15px;
+  left: 161px;
+  opacity: 1;
+  position: absolute;
+  top: 729px;
+  width: 12px;
+}
+
+.desktop-1 .tab-t1-C61RwL {
+  --z-index: 3;
+  background-color: transparent;
+  height: 206px;
+  left: 17px;
+  opacity: 1;
+  position: absolute;
+  top: 760px;
+  width: 318px;
+}
+
+.desktop-1 .rectangle-7-HjFC3j {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  width: 316px;
+}
+
+.desktop-1 .image-11-HjFC3j {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-11-1@2x.png);
+  background-size: 100% 100%;
+  height: 169px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .i-phone-16-innovatio-HjFC3j {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 183px;
+  width: auto;
+}
+
+.desktop-1 .tab-t2-C61RwL {
+  --z-index: 4;
+  background-color: transparent;
+  height: 199px;
+  left: 329px;
+  opacity: 1;
+  position: absolute;
+  top: 767px;
+  width: 371px;
+}
+
+.desktop-1 .rectangle-8-Mx2Itn {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 27px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .image-12-Mx2Itn {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-12-1.png);
+  background-size: 100% 100%;
+  height: 132px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  width: 369px;
+}
+
+.desktop-1 .rtx-4090-overpowered-or-overpriced-Mx2Itn {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 30px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-1 .tab-t3-C61RwL {
+  --z-index: 5;
+  background-color: transparent;
+  height: 199px;
+  left: 695px;
+  opacity: 1;
+  position: absolute;
+  top: 767px;
+  width: 318px;
+}
+
+.desktop-1 .rectangle-9-xSY2xd {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .image-13-xSY2xd {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-13-1.png);
+  background-size: 100% 100%;
+  height: 162px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .ps5-pro-worth-the-up-xSY2xd {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 3px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-1 .tab-t4-C61RwL {
+  --z-index: 6;
+  background-color: transparent;
+  height: 199px;
+  left: 1034px;
+  opacity: 1;
+  position: absolute;
+  top: 767px;
+  width: 318px;
+}
+
+.desktop-1 .rectangle-10-hHqMfS {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .image-14-hHqMfS {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-14-1@2x.png);
+  background-size: 100% 100%;
+  height: 162px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .s24-ultra-cutting-ed-hHqMfS {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-1 .trend-up-01-VMr6Om {
+  --z-index: 7;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/trend-up-01-4.svg);
+  background-size: 100% 100%;
+  height: 15px;
+  left: 161px;
+  opacity: 1;
+  position: absolute;
+  top: 729px;
+  width: 12px;
+}
+
+.desktop-1 .tab-t1-VMr6Om {
+  --z-index: 8;
+  background-color: transparent;
+  cursor: pointer;
+  height: 206px;
+  left: 17px;
+  opacity: 1;
+  position: absolute;
+  top: 760px;
+  width: 318px;
+}
+
+.desktop-1 .rectangle-7-GJBbQx {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  width: 316px;
+}
+
+.desktop-1 .image-11-GJBbQx {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-11-1@2x.png);
+  background-size: 100% 100%;
+  height: 169px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .i-phone-16-innovatio-GJBbQx {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 183px;
+  width: auto;
+}
+
+.desktop-1 .tab-t2-VMr6Om {
+  --z-index: 9;
+  background-color: transparent;
+  height: 199px;
+  left: 329px;
+  opacity: 1;
+  position: absolute;
+  top: 767px;
+  width: 371px;
+}
+
+.desktop-1 .rectangle-8-D8woVJ {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 27px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .image-12-D8woVJ {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-12-1.png);
+  background-size: 100% 100%;
+  height: 132px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  width: 369px;
+}
+
+.desktop-1 .rtx-4090-overpowered-or-overpriced-D8woVJ {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 30px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-1 .tab-t3-VMr6Om {
+  --z-index: 10;
+  background-color: transparent;
+  height: 199px;
+  left: 695px;
+  opacity: 1;
+  position: absolute;
+  top: 767px;
+  width: 318px;
+}
+
+.desktop-1 .rectangle-9-s0ZGAg {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .image-13-s0ZGAg {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-13-1.png);
+  background-size: 100% 100%;
+  height: 162px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .ps5-pro-worth-the-up-s0ZGAg {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 3px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-1 .tab-t4-VMr6Om {
+  --z-index: 11;
+  background-color: transparent;
+  height: 199px;
+  left: 1034px;
+  opacity: 1;
+  position: absolute;
+  top: 767px;
+  width: 318px;
+}
+
+.desktop-1 .rectangle-10-1UPgrQ {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .image-14-1UPgrQ {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-14-1@2x.png);
+  background-size: 100% 100%;
+  height: 162px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .s24-ultra-cutting-ed-1UPgrQ {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-1 .latest-reviews-C61RwL {
+  --z-index: 12;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 1017px;
+  width: auto;
+}
+
+.desktop-1 .tab-l1-C61RwL {
+  --z-index: 13;
+  background-color: transparent;
+  height: 206px;
+  left: 17px;
+  opacity: 1;
+  position: absolute;
+  top: 1049px;
+  width: 318px;
+}
+
+.desktop-1 .rectangle-7-P5uKRx {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  width: 316px;
+}
+
+.desktop-1 .image-11-P5uKRx {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-11-1@2x.png);
+  background-size: 100% 100%;
+  height: 169px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .i-phone-16-innovatio-P5uKRx {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 183px;
+  width: auto;
+}
+
+.desktop-1 .tab-l2-C61RwL {
+  --z-index: 14;
+  background-color: transparent;
+  height: 199px;
+  left: 329px;
+  opacity: 1;
+  position: absolute;
+  top: 1056px;
+  width: 371px;
+}
+
+.desktop-1 .rectangle-8-FycXHR {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 27px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .image-12-FycXHR {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-12-1.png);
+  background-size: 100% 100%;
+  height: 132px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  width: 369px;
+}
+
+.desktop-1 .rtx-4090-overpowered-or-overpriced-FycXHR {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 30px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-1 .tab-l3-C61RwL {
+  --z-index: 15;
+  background-color: transparent;
+  height: 199px;
+  left: 695px;
+  opacity: 1;
+  position: absolute;
+  top: 1056px;
+  width: 318px;
+}
+
+.desktop-1 .rectangle-9-RH0XI8 {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .image-13-RH0XI8 {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-13-1.png);
+  background-size: 100% 100%;
+  height: 162px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .ps5-pro-worth-the-up-RH0XI8 {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 3px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-1 .tab-l4-C61RwL {
+  --z-index: 16;
+  background-color: transparent;
+  height: 199px;
+  left: 1034px;
+  opacity: 1;
+  position: absolute;
+  top: 1056px;
+  width: 318px;
+}
+
+.desktop-1 .rectangle-10-yMWbAA {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .image-14-yMWbAA {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-14-1@2x.png);
+  background-size: 100% 100%;
+  height: 162px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-1 .s24-ultra-cutting-ed-yMWbAA {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-1 .component-2-C61RwL {
+  --z-index: 17;
+  background-color: transparent;
+  height: 604px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 109px;
+  width: 1440px;
+}
+
+.desktop-1 .image-9-esxmfg {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-9-1.png);
+  background-size: 100% 100%;
+  height: 604px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.desktop-1 .slider-esxmfg {
+  --z-index: 1;
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  gap: 24px;
+  height: 42px;
+  left: 568px;
+  opacity: 1;
+  position: absolute;
+  top: 551px;
+  width: 305px;
+}
+
+.desktop-1 .dot-TwEgqO {
+  --z-index: 0;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  height: 32px;
+  justify-content: center;
+  opacity: 1;
+  position: relative;
+  width: 32px;
+}
+
+.desktop-1 .slider-dot-pEU1UL {
+  --z-index: 0;
+  background-color: transparent;
+  height: 20px;
+  opacity: 1;
+  position: relative;
+  width: 20px;
+}
+
+.desktop-1 .slide-01-PJ2Dpx {
+  --z-index: 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 20px;
+  left: 0px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  width: 20px;
+}
+
+.desktop-1 .dot-V4BnGM {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  height: 32px;
+  justify-content: center;
+  opacity: 1;
+  position: relative;
+  width: 32px;
+}
+
+.desktop-1 .slider-dot-JZrQnu {
+  --z-index: 0;
+  background-color: transparent;
+  height: 16px;
+  opacity: 1;
+  position: relative;
+  width: 16px;
+}
+
+.desktop-1 .slide-01-OWLiqx {
+  --z-index: 0;
+  background-color: #ffffff66;
+  border-radius: 8px;
+  height: 16px;
+  left: 0px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  width: 16px;
+}
+
+.desktop-1 .dot-LY0rWx {
+  --z-index: 2;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  height: 32px;
+  justify-content: center;
+  opacity: 1;
+  position: relative;
+  width: 32px;
+}
+
+.desktop-1 .slider-dot-2CH94b {
+  --z-index: 0;
+  background-color: transparent;
+  height: 16px;
+  opacity: 1;
+  position: relative;
+  width: 16px;
+}
+
+.desktop-1 .slide-01-e5Tfkx {
+  --z-index: 0;
+  background-color: #ffffff66;
+  border-radius: 8px;
+  height: 16px;
+  left: 0px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  width: 16px;
+}
+
+.desktop-1 .dot-xIjlS1 {
+  --z-index: 3;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  height: 32px;
+  justify-content: center;
+  opacity: 1;
+  position: relative;
+  width: 32px;
+}
+
+.desktop-1 .slider-dot-t93HK3 {
+  --z-index: 0;
+  background-color: transparent;
+  height: 16px;
+  opacity: 1;
+  position: relative;
+  width: 16px;
+}
+
+.desktop-1 .slide-01-oRnDFP {
+  --z-index: 0;
+  background-color: #ffffff66;
+  border-radius: 8px;
+  height: 16px;
+  left: 0px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  width: 16px;
+}
+
+.desktop-1 .dot-bHTHxs {
+  --z-index: 4;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  height: 32px;
+  justify-content: center;
+  opacity: 1;
+  position: relative;
+  width: 32px;
+}
+
+.desktop-1 .slider-dot-yPykA4 {
+  --z-index: 0;
+  background-color: transparent;
+  height: 16px;
+  opacity: 1;
+  position: relative;
+  width: 16px;
+}
+
+.desktop-1 .slide-01-c0VWVD {
+  --z-index: 0;
+  background-color: #ffffff66;
+  border-radius: 8px;
+  height: 16px;
+  left: 0px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  width: 16px;
+}
+
+.desktop-1 .smartphones-esxmfg {
+  --z-index: 2;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "Istok Web", Helvetica;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 503px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 481px;
+  width: 433px;
+}
+
+.desktop-1 .arrow-narrow-right-C61RwL {
+  --z-index: 18;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/arrow-narrow-right-3.svg);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 31px;
+  left: 1375px;
+  opacity: 1;
+  position: absolute;
+  top: 848px;
+  width: 31px;
+}
+
+.desktop-1 .arrow-narrow-right-VMr6Om {
+  --z-index: 19;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/arrow-narrow-right-4@2x.png);
+  background-size: 100% 100%;
+  height: 31px;
+  left: 1375px;
+  opacity: 1;
+  position: absolute;
+  top: 1134px;
+  width: 31px;
+}
+/* screen - desktop-4 */
+
+.desktop-4 {
+  background-color: #ffffff;
+  height: 984px;
+  opacity: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop-4 .head-C61RwL {
+  --z-index: 0;
+  background-color: transparent;
+  height: 104px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.desktop-4 .rectangle-6-s1PSRm {
+  --z-index: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 104px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.desktop-4 .menu-01-s1PSRm {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/menu-01-4.svg);
+  background-size: 100% 100%;
+  height: 32px;
+  left: 1394px;
+  opacity: 1;
+  position: absolute;
+  top: 39px;
+  width: 27px;
+}
+
+.desktop-4 .group-11-s1PSRm {
+  --z-index: 2;
+  background-color: transparent;
+  height: 27px;
+  left: 1262px;
+  opacity: 1;
+  position: absolute;
+  top: 39px;
+  width: 77px;
+}
+
+.desktop-4 .user-01-QGVhsd {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/user-01-5.svg);
+  background-size: 100% 100%;
+  height: 27px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 28px;
+}
+
+.desktop-4 .login-QGVhsd {
+  --z-index: 1;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 9px;
+  width: auto;
+}
+
+.desktop-4 .hasidhsahdiashdiahsi-C61RwL {
+  --z-index: 1;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 8px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 512px;
+  width: 1423px;
+}
+
+.desktop-4 .image-21-C61RwL {
+  --z-index: 2;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-21-1.png);
+  background-size: 100% 100%;
+  height: 371px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 104px;
+  width: 1440px;
+}
+
+.desktop-4 .i-phone-16-innovatio-C61RwL {
+  --z-index: 3;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 8px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 421px;
+  width: 1055px;
+}
+/* screen - desktop-3 */
+
+.desktop-3 {
+  background-color: #ffffff;
+  height: 984px;
+  opacity: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop-3 .head-C61RwL {
+  --z-index: 0;
+  background-color: transparent;
+  height: 104px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.desktop-3 .rectangle-6-s1PSRm {
+  --z-index: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 104px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.desktop-3 .menu-01-s1PSRm {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/menu-01-4.svg);
+  background-size: 100% 100%;
+  height: 32px;
+  left: 1394px;
+  opacity: 1;
+  position: absolute;
+  top: 39px;
+  width: 27px;
+}
+
+.desktop-3 .group-11-s1PSRm {
+  --z-index: 2;
+  background-color: transparent;
+  height: 27px;
+  left: 1262px;
+  opacity: 1;
+  position: absolute;
+  top: 39px;
+  width: 77px;
+}
+
+.desktop-3 .user-01-QGVhsd {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/user-01-4.svg);
+  background-size: 100% 100%;
+  height: 27px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 28px;
+}
+
+.desktop-3 .login-QGVhsd {
+  --z-index: 1;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 9px;
+  width: auto;
+}
+
+.desktop-3 .currently-trending-C61RwL {
+  --z-index: 1;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 12px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 114px;
+  width: auto;
+}
+
+.desktop-3 .trend-up-01-C61RwL {
+  --z-index: 2;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/trend-up-01-4.svg);
+  background-size: 100% 100%;
+  height: 15px;
+  left: 158px;
+  opacity: 1;
+  position: absolute;
+  top: 115px;
+  width: 12px;
+}
+
+.desktop-3 .tab-t1-C61RwL {
+  --z-index: 3;
+  background-color: transparent;
+  height: 206px;
+  left: 14px;
+  opacity: 1;
+  position: absolute;
+  top: 146px;
+  width: 318px;
+}
+
+.desktop-3 .rectangle-7-HjFC3j {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  width: 316px;
+}
+
+.desktop-3 .image-11-HjFC3j {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-11-1@2x.png);
+  background-size: 100% 100%;
+  height: 169px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .i-phone-16-innovatio-HjFC3j {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 183px;
+  width: auto;
+}
+
+.desktop-3 .tab-t2-C61RwL {
+  --z-index: 4;
+  background-color: transparent;
+  height: 199px;
+  left: 326px;
+  opacity: 1;
+  position: absolute;
+  top: 153px;
+  width: 371px;
+}
+
+.desktop-3 .rectangle-8-Mx2Itn {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 27px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .image-12-Mx2Itn {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-12-1.png);
+  background-size: 100% 100%;
+  height: 132px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  width: 369px;
+}
+
+.desktop-3 .rtx-4090-overpowered-or-overpriced-Mx2Itn {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 30px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-3 .tab-t3-C61RwL {
+  --z-index: 5;
+  background-color: transparent;
+  height: 199px;
+  left: 692px;
+  opacity: 1;
+  position: absolute;
+  top: 153px;
+  width: 318px;
+}
+
+.desktop-3 .rectangle-9-xSY2xd {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .image-13-xSY2xd {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-13-1.png);
+  background-size: 100% 100%;
+  height: 162px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .ps5-pro-worth-the-up-xSY2xd {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 3px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-3 .tab-t4-C61RwL {
+  --z-index: 6;
+  background-color: transparent;
+  height: 199px;
+  left: 1031px;
+  opacity: 1;
+  position: absolute;
+  top: 153px;
+  width: 318px;
+}
+
+.desktop-3 .rectangle-10-hHqMfS {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .image-14-hHqMfS {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-14-1@2x.png);
+  background-size: 100% 100%;
+  height: 162px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .s24-ultra-cutting-ed-hHqMfS {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-3 .tab-t1-VMr6Om {
+  --z-index: 7;
+  background-color: transparent;
+  height: 206px;
+  left: 12px;
+  opacity: 1;
+  position: absolute;
+  top: 394px;
+  width: 318px;
+}
+
+.desktop-3 .rectangle-7-GJBbQx {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  width: 316px;
+}
+
+.desktop-3 .image-11-GJBbQx {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-11-1@2x.png);
+  background-size: 100% 100%;
+  height: 169px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .i-phone-16-innovatio-GJBbQx {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 183px;
+  width: auto;
+}
+
+.desktop-3 .tab-t2-VMr6Om {
+  --z-index: 8;
+  background-color: transparent;
+  height: 199px;
+  left: 324px;
+  opacity: 1;
+  position: absolute;
+  top: 401px;
+  width: 371px;
+}
+
+.desktop-3 .rectangle-8-D8woVJ {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 27px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .image-12-D8woVJ {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-12-1.png);
+  background-size: 100% 100%;
+  height: 132px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  width: 369px;
+}
+
+.desktop-3 .rtx-4090-overpowered-or-overpriced-D8woVJ {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 30px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-3 .tab-t3-VMr6Om {
+  --z-index: 9;
+  background-color: transparent;
+  height: 199px;
+  left: 690px;
+  opacity: 1;
+  position: absolute;
+  top: 401px;
+  width: 318px;
+}
+
+.desktop-3 .rectangle-9-s0ZGAg {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .image-13-s0ZGAg {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-13-1.png);
+  background-size: 100% 100%;
+  height: 162px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .ps5-pro-worth-the-up-s0ZGAg {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 3px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-3 .tab-t4-VMr6Om {
+  --z-index: 10;
+  background-color: transparent;
+  height: 199px;
+  left: 1029px;
+  opacity: 1;
+  position: absolute;
+  top: 401px;
+  width: 318px;
+}
+
+.desktop-3 .rectangle-10-1UPgrQ {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .image-14-1UPgrQ {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-14-1@2x.png);
+  background-size: 100% 100%;
+  height: 162px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .s24-ultra-cutting-ed-1UPgrQ {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-3 .tab-t1-mzXdH9 {
+  --z-index: 11;
+  background-color: transparent;
+  height: 206px;
+  left: 14px;
+  opacity: 1;
+  position: absolute;
+  top: 649px;
+  width: 318px;
+}
+
+.desktop-3 .rectangle-7-NB4Caa {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  width: 316px;
+}
+
+.desktop-3 .image-11-NB4Caa {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-11-1@2x.png);
+  background-size: 100% 100%;
+  height: 169px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .i-phone-16-innovatio-NB4Caa {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 183px;
+  width: auto;
+}
+
+.desktop-3 .tab-t2-mzXdH9 {
+  --z-index: 12;
+  background-color: transparent;
+  height: 199px;
+  left: 326px;
+  opacity: 1;
+  position: absolute;
+  top: 656px;
+  width: 371px;
+}
+
+.desktop-3 .rectangle-8-XXxDNL {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 27px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .image-12-XXxDNL {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-12-1.png);
+  background-size: 100% 100%;
+  height: 132px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  width: 369px;
+}
+
+.desktop-3 .rtx-4090-overpowered-or-overpriced-XXxDNL {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 30px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-3 .tab-t3-mzXdH9 {
+  --z-index: 13;
+  background-color: transparent;
+  height: 199px;
+  left: 692px;
+  opacity: 1;
+  position: absolute;
+  top: 656px;
+  width: 318px;
+}
+
+.desktop-3 .rectangle-9-73aV5P {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .image-13-73aV5P {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-13-1.png);
+  background-size: 100% 100%;
+  height: 162px;
+  left: 0px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .ps5-pro-worth-the-up-73aV5P {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 3px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
+
+.desktop-3 .tab-t4-mzXdH9 {
+  --z-index: 14;
+  background-color: transparent;
+  height: 199px;
+  left: 1031px;
+  opacity: 1;
+  position: absolute;
+  top: 656px;
+  width: 318px;
+}
+
+.desktop-3 .rectangle-10-uA3GGm {
+  --z-index: 0;
+  background-color: #ffffff;
+  height: 199px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .image-14-uA3GGm {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6718e4c0e1c7a2ddf5e2b208/releases/6718e520f429b4b360bf7121/img/image-14-1@2x.png);
+  background-size: 100% 100%;
+  height: 162px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 316px;
+}
+
+.desktop-3 .s24-ultra-cutting-ed-uA3GGm {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 2px;
+  letter-spacing: 0px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: auto;
+}
